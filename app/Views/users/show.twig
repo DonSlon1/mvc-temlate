@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ user.name }}</h1>
+    <p>Email: {{ user.email }}</p>
+    <p>Joined on {{ user.created_at|date("F j, Y, g:i a") }}</p>
+    <a href="/users">Back to Users List</a>
+</body>
+</html>
